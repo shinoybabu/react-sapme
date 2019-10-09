@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 
-class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
+const NavBar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
@@ -45,6 +40,4 @@ class NavBar extends Component {
       </nav>
     );
   }
-}
-
 export default NavBar;
