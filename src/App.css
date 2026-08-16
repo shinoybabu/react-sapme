@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* Debug banner shown in development mode */
+.debug-article {
+  position: sticky;
+  top: 0;
+  background: #fff6c8;
+  color: #222;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #f0e6b3;
+  z-index: 999;
+  text-align: center;
+}
